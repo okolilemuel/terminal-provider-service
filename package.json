@@ -1,0 +1,25 @@
+{
+  "name": "terminal-backend-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js",
+    "dev": "nodemon -r esm src/index.js"
+  },
+  "keywords": [],
+  "author": "Lemuel Okoli",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.31.1",
+    "dotenv": "^8.1.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "pg": "^7.12.1",
+    "postgraphile": "^4.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
